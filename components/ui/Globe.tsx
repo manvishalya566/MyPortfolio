@@ -53,7 +53,7 @@ export type GlobeConfig = {
   autoRotateSpeed?: number;
 };
 
-interface WorldProps {
+export interface WorldProps {
   globeConfig: GlobeConfig;
   data: Position[];
 }
