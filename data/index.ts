@@ -9,12 +9,12 @@ export const navItems = [
 export const gridItems = [
     {
         id: 1,
-        title: "I build full-stack web applications with the MERN stack, Next.js, and React.",
+        title: "I prioritize client collaboration, fostering open communication",
         description: "",
         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[85vh]",
         imgClassName: "w-full h-full",
-        titleClassName: "justify-end",
-        img: "/b1.svg",
+        titleClassName: "justify-end pb-10 lg:pb-14",
+        img: "/project/images/background.png",
         spareImg: "",
     },
     {

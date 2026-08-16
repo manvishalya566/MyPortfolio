@@ -81,6 +81,10 @@ export const BentoGridItem = ({
           )}
         </div>
 
+        {id === 1 && (
+          <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-[#04071d] via-[#04071d]/40 to-transparent z-[1]" />
+        )}
+
         <div className={`absolute right-0 -bottom-5 ${id === 5 && 'w-full opacity-80'}`}>
           {spareImg && (
             <img
@@ -104,7 +108,7 @@ export const BentoGridItem = ({
             {description}
           </div>
 
-          <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
+          <div className={cn("font-sans font-bold text-lg lg:text-3xl max-w-96 z-10", id === 1 && "text-white text-2xl md:text-3xl lg:text-4xl")}>
             {title}
           </div>
 
