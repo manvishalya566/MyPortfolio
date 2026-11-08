@@ -39,7 +39,7 @@ const Hero = () => {
 
                     <a
                         title="Show my resume"
-                        href="https://drive.google.com/file/d/10H7U6wjzQu938G7JeVIDPhhYLy4uHg7P/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1DBwQuXGYzq9pHmO4ffylJJ7dHnZqNhOR/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
